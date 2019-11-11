@@ -8,8 +8,9 @@ configserver:
     status: Connected to the JHipster Registry config server, using https://github.com/DivisoSofttech/platform-configurations !
 
 # Default JWT secret token (to be changed in production!)
+jhipster.security.authentication.jwt.base64-secret
 jhipster:
     security:
         authentication:
             jwt:
-                secret: ooed-FDk-Qa5nwKYplo5BIyv9XgHVfbuO4glBtJfWKs
+                base64-secret: ooed-FDk-Qa5nwKYplo5BIyv9XgHVfbuO4glBtJfWKs
