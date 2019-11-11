@@ -13,4 +13,4 @@ jhipster:
     security:
         authentication:
             jwt:
-                secret: LRIHwqdiRUUGOeXX54RjnVts1vRYxkr5E4DUwq70IBc
+                secret: zObOtnTKpXq1BhEGAXYDqZdP025vGovJtZvbBoAZTxo
