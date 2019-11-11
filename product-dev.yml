@@ -21,7 +21,7 @@ logging:
 
 eureka:
     instance:
-        prefer-ip-address: true
+#        prefer-ip-address: true
 	hostname: dev.ci1.divisosofttech.com
     client:
         service-url:
