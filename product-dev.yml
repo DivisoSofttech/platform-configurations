@@ -23,9 +23,6 @@ eureka:
     instance:
         prefer-ip-address: true
 #	hostname: dev.ci1.divisosofttech.com
-    	nonSecurePort: 8084
-    	nonSecurePortEnabled: true
-    	hostname: dev.ci1.divisosofttech.com
     client:
         service-url:
             defaultZone: http://admin:${jhipster.registry.password}@dev.servers.divisosofttech.com:8761/eureka/
