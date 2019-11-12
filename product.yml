@@ -26,6 +26,7 @@ eureka:
     instance:
         appname: product
         instanceId: product:${spring.application.instance-id:${random.value}}
+	hostname: dev.ci1.divisosofttech.com
         lease-renewal-interval-in-seconds: 5
         lease-expiration-duration-in-seconds: 10
         status-page-url-path: ${management.endpoints.web.base-path}/info
